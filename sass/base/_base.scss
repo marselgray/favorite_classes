@@ -20,6 +20,18 @@ body{
 	box-sizing: border-box;
 }
 
+main{
+	padding: 3rem;
+}
+
+section{
+	margin: 2rem 0;
+}
+
+p{
+	font-size: 1.8rem;
+}
+
 // mobile first design
 @mixin breakpoint($breakpoint) {
 	@if $breakpoint == small {
