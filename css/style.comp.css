@@ -46,6 +46,16 @@ p {
     justify-content: center; }
     .flex--center__center {
       align-content: center; }
+  .flex--split {
+    width: 100%; }
+    @media (min-width: 56.25em) {
+      .flex--split {
+        width: 45%; } }
+    .flex--split__alt {
+      width: 100%; }
+      @media (min-width: 75em) {
+        .flex--split__alt {
+          width: 45%; } }
 
 .iframe--responsive {
   position: relative;
