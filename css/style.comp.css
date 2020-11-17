@@ -21,7 +21,7 @@ main {
 section {
   margin: 2rem 0; }
 
-p {
+p, a {
   font-size: 1.8rem; }
 
 .flex {
